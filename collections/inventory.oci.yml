@@ -1,0 +1,15 @@
+---
+plugin: oracle.oci.oci
+
+regions:
+  - sa-saopaulo-1
+
+#include_host_filters:
+#  - "'olautomattion' == freeform_tags.project"
+#
+#compartments:
+#  - compartment_ocid: "ocid1..."
+
+hostname_format_preferences:
+  - "public_ip"
+  - "private_ip"
