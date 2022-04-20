@@ -4,11 +4,11 @@ plugin: oracle.oci.oci
 regions:
   - sa-saopaulo-1
 
-#include_host_filters:
-#  - "'olautomattion' == freeform_tags.project"
-#
-#compartments:
-#  - compartment_ocid: "ocid1..."
+include_host_filters:
+  - "'olam' == freeform_tags.project"
+
+compartments:
+  - compartment_ocid: "ocid1.compartment.oc1..aaaaaaaaza3balub67def35nbly5rqgb2m4yqdfelq7ulohaxsqyhmeiqhba"
 
 hostname_format_preferences:
   - "public_ip"
